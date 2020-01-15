@@ -16,6 +16,12 @@ import com.example.mykotlin.bean.TagBean
 import kotlinx.android.synthetic.main.activity_slide_layout.*
 import java.util.*
 
+/**
+ * 主页
+ * @author wenlin
+ * @date 2020//1/15
+ *
+ */
 class MainActivity : AppCompatActivity() {
     private val mY: Float = 0.toFloat()
     internal var list: MutableList<TagBean> = ArrayList()
